@@ -1,16 +1,12 @@
-package com.javabrown.core.api.resources;
+package com.javabrown.api.rest;
 
-
-import com.javabrown.core.api.model.Country;
+import com.javabrown.api.model.Country;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
-import java.util.Optional;
 import java.util.UUID;
 
 @RestController
-@EnableWebMvc
-public class RootController {
+public class CountryResource {
     @RequestMapping(path = "/country", method = RequestMethod.POST)
     public Country createCountry(@RequestBody Country newPet) {
         Country country = new Country();

@@ -1,4 +1,4 @@
-package com.javabrown.core.api.model;
+package com.javabrown.api.model;
 
 public class Country {
     private String id;

@@ -1,4 +1,4 @@
-package com.javabrown.core.api.filter;
+package com.javabrown.api.filter;
 
 import com.amazonaws.serverless.proxy.RequestReader;
 import com.amazonaws.serverless.proxy.model.AwsProxyRequestContext;
